@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00254E"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rabel.after_test.Academic">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <!-- admission -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/admissionBtn"
+                android:text="admission"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!-- academic-rules -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/admissionBtn"
+                android:id="@+id/rulesBtn"
+                android:text="academic-rules"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+
+            <!-- student-code-of-conduct !-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rulesBtn"
+                android:id="@+id/code_of_conductBtn"
+                android:text="student-code-of-conduct"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!-- scholarships -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/code_of_conductBtn"
+                android:id="@+id/scholarshipsBtn"
+                android:text="scholarships"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!-- syllabus -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scholarshipsBtn"
+                android:id="@+id/syllabusBtn"
+                android:text="syllabus"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!--examination-schedule-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/syllabusBtn"
+                android:id="@+id/examination_scheduleBtn"
+                android:text="examination-schedule"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!-- convocation -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/examination_scheduleBtn"
+                android:id="@+id/convocationBtn"
+                android:text="convocation"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!-- notice-board -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/convocationBtn"
+                android:id="@+id/notice_boardBtn"
+                android:text="notice-board"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!-- library -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/notice_boardBtn"
+                android:id="@+id/libraryBtn"
+                android:text="library"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!-- labs -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/libraryBtn"
+                android:id="@+id/labs"
+                android:text="labs"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

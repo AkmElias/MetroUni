@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00254E"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rabel.after_test.Programees">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <!-- CSE -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cseBtn"
+                android:text="CSE"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!-- EEE -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cseBtn"
+                android:id="@+id/eeeBtn"
+                android:text="EEE"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+
+            <!-- BBA !-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/eeeBtn"
+                android:id="@+id/bbaBtn"
+                android:text="BBA"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!-- Economics -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bbaBtn"
+                android:id="@+id/EconomicsBtn"
+                android:text="Economics"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!--English-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bbaBtn"
+                android:id="@+id/englishBtn"
+                android:text="English"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+            <!-- LLB -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/englishBtn"
+                android:id="@+id/llbBtn"
+                android:text="LLB"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:textColor="#4CAF50"
+                android:background="#F44336"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
