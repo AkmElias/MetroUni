@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00254E"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rabel.after_test.Syndicate">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- saleh_uddin -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/salehuddinImg"
+                android:src="@drawable/vice_chancellor_dr"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/salehuddinImg"
+                android:id="@+id/salehuddin_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Professor Md. Saleh Uddin Ph D\n(Ex-officio Member, Board of Trustees,Metropolitan University)Vice Chancellor, Metropolitan University, Sylhet\Chariman"
+                />
+            <!-- mr_shiba_prasad_sen -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/salehuddin_txtV"
+                android:id="@+id/shiba_prasad_senImg"
+                android:src="@drawable/mr_shiba_prasad_sen"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/shiba_prasad_senImg"
+                android:id="@+id/shiba_prasad_sen_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Professor Shiba Prasad Sen\nPro-Vice Chancellor\nMetropolitan University\nMember"
+                />
+            <!-- md_mahbubur_rahman -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shiba_prasad_sen_txtV"
+                android:id="@+id/mahbubur_rahmanImg"
+                android:src="@drawable/md_mahbubur_rahman"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/mahbubur_rahmanImg"
+                android:id="@+id/mahbubur_rahmanImg_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Professor Khandker Mahmudur Rahman\nTreasurer\nMetropolitan University\nMember"
+                />
+            <!-- Manzoorul Islam -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/salehuddin_txtV"
+                android:id="@+id/manzoorul_islam_Img"
+                android:src="@drawable/md_manzoorul_islam"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/manzoorul_islam_Img"
+                android:id="@+id/manzoorul_islam_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Department of English \nUniversity of Dhaka\nVice Chancellor nominated member from Academic Council"
+                />
+            <!-- suresh_ranjan_basak -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manzoorul_islam_txtV"
+                android:id="@+id/suresh_ranjan_basak_Img"
+                android:src="@drawable/mr_suresh_ranjan_basak"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/suresh_ranjan_basak_Img"
+                android:id="@+id/suresh_ranjan_basak_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Dean, School of Humanities and Social Sciences\nHead, Department of English\nMetropolitan University\nVice Chancellor nominated member from Dean’s category"
+                />
+            <!-- chowdhury_muhammad_mukammel_wahid -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/suresh_ranjan_basak_txtV"
+                android:id="@+id/chowdhury_muhammad_mukammel_wahid_Img"
+                android:src="@drawable/choudhury_muhammed_mukammel"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/chowdhury_muhammad_mukammel_wahid_Img"
+                android:id="@+id/chowdhury_muhammad_mukammel_wahid_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Mr. Chowdhury Muhammad Mukammel Wahid\nAssociate Professor and Head\nDepartment of Computer Science\nand Engineering\nMetropolitan University\nVice Chancellor nominated member from Head’s category"
+                />
+
+            <!-- mr_chowdhury_mufad_ahmed -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chowdhury_muhammad_mukammel_wahid_txtV"
+                android:id="@+id/chowdhury_mufad_ahmed_Img"
+                android:src="@drawable/mr_chowdhury_mufad_ahmed"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/chowdhury_mufad_ahmed_Img"
+                android:id="@+id/chowdhury_mufad_ahmed_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Mr. Chowdhury Mufad Ahmed\nAdditional Secretary, Ministry of Education\nMinistry of Education nominated member (Educationist)"
+                />
+
+            <!-- toufique_rahman_chowdhury -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chowdhury_mufad_ahmed_txtV"
+                android:id="@+id/toufique_rahmanImg"
+                android:src="@drawable/dr_toufique_rahman_chowdhury"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/toufique_rahmanImg"
+                android:id="@+id/toufique_rahman_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Dr. Toufique Rahman Chowdhury\n(Chairman, Board of Trustees,\nBoard of Trustees nominated member\nMetropolitan University)"
+                />
+
+            <!-- Engineer Mohammed -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toufique_rahman_txtV"
+                android:id="@+id/engineer_mohammedImg"
+                android:src="@drawable/md_monsuruzzaman"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/engineer_mohammedImg"
+                android:id="@+id/engineer_mohammed_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Engineer Mohammed Monsuruzzaman\n(Board of Trustees nominated member,Metropolitan University)"
+                />
+            <!-- Mohammed Farashuddin -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/engineer_mohammed_txtV"
+                android:id="@+id/mohammed_farashuddinImg"
+                android:src="@drawable/mr_farashuddin"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/mohammed_farashuddinImg"
+                android:id="@+id/mohammed_farashuddin_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Professor Dr. Mohammed Farashuddin\nFormer Governor, Bangladesh Bank.\nMember, Board of Trustees, Metropolitan University\nBoard of Trustees nominated member"
+                />
+
+            <!-- md_zafar_iqbal -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/engineer_mohammed_txtV"
+                android:id="@+id/md_zafar_iqbalImg"
+                android:src="@drawable/md_zafar_iqbal"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/md_zafar_iqbalImg"
+                android:id="@+id/md_zafar_iqbal_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Professor Muhammad Zafar Iqbal Ph D\nHead, Department of EEE Shahjalal Univ. of Sci. and Tech., Sylhet\nUGC nominated member"
+                />
+            <!--Fazlur Rabb -->
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/md_zafar_iqbal_txtV"
+                android:id="@+id/fazlur_rabbImg"
+                android:src="@drawable/muhammad_fazlur_rabb_tanvir"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/fazlur_rabbImg"
+                android:id="@+id/fazlur_rabbImg_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Mr. Muhammad Fazlur Rabb\nRegistrar, Metropolitan University\nMember Secretary"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

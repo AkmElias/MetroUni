@@ -27,7 +27,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- Notice Board -->
             <Button
@@ -39,7 +39,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
 
             <!-- Class Routine -->
@@ -52,7 +52,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- syllabus -->
             <Button
@@ -64,7 +64,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!--examination-schedule-->
             <Button
@@ -76,7 +76,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- Research -->
             <Button
@@ -88,7 +88,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- Hostel -->
             <Button
@@ -100,7 +100,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- Alumni -->
             <Button
@@ -112,7 +112,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- Orientation -->
             <Button
@@ -124,7 +124,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
         </LinearLayout>
     </ScrollView>

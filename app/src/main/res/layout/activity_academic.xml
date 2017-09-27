@@ -27,7 +27,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- academic-rules -->
             <Button
@@ -39,7 +39,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
 
             <!-- student-code-of-conduct !-->
@@ -52,7 +52,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- scholarships -->
             <Button
@@ -64,7 +64,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- syllabus -->
             <Button
@@ -76,7 +76,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!--examination-schedule-->
             <Button
@@ -88,7 +88,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- convocation -->
             <Button
@@ -100,7 +100,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- notice-board -->
             <Button
@@ -112,7 +112,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- library -->
             <Button
@@ -124,7 +124,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
             <!-- labs -->
             <Button
@@ -136,7 +136,7 @@
                 android:layout_margin="10dp"
                 android:textSize="16dp"
                 android:textColor="#4CAF50"
-                android:background="#F44336"
+                android:background="#364F65"
                 />
         </LinearLayout>
     </ScrollView>

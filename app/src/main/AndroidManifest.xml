@@ -15,12 +15,54 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".Programees" />
-        <activity android:name=".Academic" />
-        <activity android:name=".CurrentStudents" />
-        <activity android:name=".AboutUs" />
-        <activity android:name=".AdvisoryBoard"></activity>
+        <activity android:name=".HomeActivity"
+            android:label="Home"
+            />
+        <activity android:name=".Programees"
+            android:label="Programees"
+            />
+        <activity android:name=".Academic"
+            android:label="Academic"
+            />
+        <activity android:name=".CurrentStudents"
+            android:label="CurrentStudents"
+            />
+        <activity android:name=".AboutUs"
+            android:label="AboutUs"
+            />
+        <activity android:name=".AdvisoryBoard"
+            android:label="AdvisoryBoard"
+            />
+        <activity android:name=".BoardOfTrustess"
+            android:label="BoardOfTrustess"
+            />
+        <activity android:name=".Syndicate"
+            android:label="Syndicate"
+            />
+        <activity android:name=".FacultyMembers"
+            android:label="FacultyMembers"
+        />
+        <activity android:name=".CseDept"
+            android:label="CseDept"
+            />
+        <activity android:name=".All_Faculties"
+            android:label="All_Faculties"
+            />
+        <activity android:name=".EeeDept"
+            android:label="EeeDept"
+            />
+        <activity android:name=".BusinessDept"
+            android:label="BusinessDept"
+            />
+        <activity android:name=".EconomicsDept"
+            android:label="EconomicsDept"
+            />
+        <activity android:name=".Law_Dept"
+            android:label="Law_Dept"
+            />
+        <activity android:name=".EnglishDept"
+            android:label="EnglishDept">
+        </activity>
     </application>
 
 </manifest>

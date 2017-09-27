@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class HomeActivity extends AppCompatActivity {
-    Button ab_btn, advis_btn;
+    Button ab_btn, advis_btn, bod_trustess, syn_btn, facul_btn;
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -27,6 +27,33 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(HomeActivity.this,AdvisoryBoard.class);
+                startActivity(intent);
+            }
+        });
+
+        bod_trustess = (Button) findViewById(R.id.Board_of_trusteesBtn);
+        bod_trustess.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, BoardOfTrustess.class);
+                startActivity(intent);
+            }
+        });
+
+        syn_btn = (Button) findViewById(R.id.SyndicateBtn);
+        syn_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, Syndicate.class);
+                startActivity(intent);
+            }
+        });
+
+        facul_btn = (Button) findViewById(R.id.FacultyMembersBtn);
+        facul_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, FacultyMembers.class);
                 startActivity(intent);
             }
         });

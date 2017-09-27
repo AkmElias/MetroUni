@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00254E"
+    android:background="@drawable/uni1"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -27,7 +27,7 @@
         android:layout_margin="10dp"
         android:textSize="16dp"
         android:textColor="#4CAF50"
-        android:background="#F44336"
+        android:background="#364F65"
         />
     <!-- About Metropolitan University -->
     <Button
@@ -39,7 +39,7 @@
         android:layout_margin="10dp"
         android:textSize="16dp"
         android:textColor="#4CAF50"
-        android:background="#F44336"
+        android:background="#364F65"
         />
 
     <!-- advisory-board !-->
@@ -52,7 +52,7 @@
         android:layout_margin="10dp"
         android:textSize="16dp"
         android:textColor="#4CAF50"
-        android:background="#F44336"
+        android:background="#364F65"
         />
     <!-- board-of-trustees -->
     <Button
@@ -64,7 +64,7 @@
         android:layout_margin="10dp"
         android:textSize="16dp"
         android:textColor="#4CAF50"
-        android:background="#F44336"
+        android:background="#364F65"
         />
     <!--syndicate-->
     <Button
@@ -76,7 +76,7 @@
         android:layout_margin="10dp"
         android:textSize="16dp"
         android:textColor="#4CAF50"
-        android:background="#F44336"
+        android:background="#364F65"
         />
     <!-- academic-council -->
     <Button
@@ -88,7 +88,7 @@
         android:layout_margin="10dp"
         android:textSize="16dp"
         android:textColor="#4CAF50"
-        android:background="#F44336"
+        android:background="#364F65"
         />
     <!-- senior-management-committee -->
     <Button
@@ -100,7 +100,7 @@
         android:layout_margin="10dp"
         android:textSize="16dp"
         android:textColor="#4CAF50"
-        android:background="#F44336"
+        android:background="#364F65"
         />
     <!-- anti-terrorism-committee -->
     <Button
@@ -112,7 +112,7 @@
         android:layout_margin="10dp"
         android:textSize="16dp"
         android:textColor="#4CAF50"
-        android:background="#F44336"
+        android:background="#364F65"
         />
     <!-- faculty-members -->
     <Button
@@ -124,7 +124,7 @@
         android:layout_margin="10dp"
         android:textSize="16dp"
         android:textColor="#4CAF50"
-        android:background="#F44336"
+        android:background="#364F65"
         />
     </LinearLayout>
     </ScrollView>

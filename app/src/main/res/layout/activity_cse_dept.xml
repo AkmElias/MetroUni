@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00254E"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rabel.after_test.CseDept">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- nazrul_haque_chowdhury -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nazrul_haque_chowdhuryImg"
+                android:src="@drawable/nazrul_haque"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/nazrul_haque_chowdhuryImg"
+                android:id="@+id/nazrul_haque_chowdhury_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Ph.D. in Mathematics\nUniversity of Chittagong\n\nM.Phil. in Mathematics\nUniversity of Chittagong\n\nM.Sc. in Mathematics\nUniversity of Chittagong\n\nB.Sc. (Hons.) in Mathematics\nUniversity of Chittagong\n\nDean, School of Science and Technology"
+                />
+
+            <!-- chowdhury_muhammad_mukammel_wahid -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nazrul_haque_chowdhury_txtV"
+                android:id="@+id/chowdhury_muhammad_mukammel_wahid_Img"
+                android:src="@drawable/choudhury_muhammed_mukammel"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/chowdhury_muhammad_mukammel_wahid_Img"
+                android:id="@+id/chowdhury_muhammad_mukammel_wahid_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="Mr. Chowdhury Muhammad Mukammel Wahid\n\nM.Sc in Physics Dept. of Physics and Atmospheric Science Dalhousie University Halifax, Nova Scotia, \nCanada\n\nM.Phil in Physics Bangladesh University of Engg. and Tech. (BUET)\n\nM.Sc in Physics Shahjalal University of Science and Technology Sylhet\n\nB.Sc. (Hons.) in Physics Shahjalal University of Science and Technology Sylhet\n\nProfessor and Head, Department of CSE"
+                />
+            <!-- md_sadek_ferdous -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chowdhury_muhammad_mukammel_wahid_txtV"
+                android:id="@+id/md_sadek_ferdous_Img"
+                android:src="@drawable/md_sadek_ferdous"
+                android:layout_margin="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_below="@+id/md_sadek_ferdous_Img"
+                android:id="@+id/md_sadek_ferdous_txtV"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:text="PhD in Identity Management by Mobile, University of Glassgow UK\n\nM.Sc. in Security and Mobile Computing Norwegian University of Science and Technology (NTNU) Norway\n\nM.Sc. in Engineering (Computer Science) University of Tartu, Estonia\n\nB.Sc. Engg. in Computer Science and Engineering Shahjalal University of Science and Technology, Sylhet\n\nAssistant Professor"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

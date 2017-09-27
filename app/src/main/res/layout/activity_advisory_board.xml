@@ -8,6 +8,90 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.rabel.after_test.AdvisoryBoard">
-    
+    tools:context="com.example.rabel.after_test.AdvisoryBoard"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ataul_karimImg"
+        android:src="@drawable/mr_md_ataul_karim"
+        android:layout_margin="10dp"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#4CAF50"
+        android:layout_below="@+id/ataul_karimImg"
+        android:id="@+id/ataul_txtV"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:text="Professor Mohammad Ataul Karim, PhD\nProvost, Executive Vice Chancellor\nUniversity of Massachusetts\nDartmouth
+USA"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ataul_txtV"
+        android:id="@+id/qazi_kholiImg"
+        android:src="@drawable/qazi_kholiquzzaman_ahmed"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#4CAF50"
+        android:layout_below="@+id/qazi_kholiImg"
+        android:id="@+id/qazi_kholi_txtV"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:text="Dr. Qazi Kholiquzzaman Ahmed\nFormer President, Bangladesh\nEconomic Association."
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qazi_kholi_txtV"
+        android:id="@+id/shams_dohaImg"
+        android:src="@drawable/mr_shamsud_doha_chowdhury"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#4CAF50"
+        android:layout_below="@+id/shams_dohaImg"
+        android:id="@+id/sham_txtV"
+        android:textAlignment="center"
+        android:text="Prof. Dr. Shamsud-Doha Chowdhury\nDalhousie University, Canada."
+        android:layout_margin="10dp"
+        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sham_txtV"
+            android:id="@+id/abul_barakatImg"
+            android:src="@drawable/mr_abul_barakat"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#4CAF50"
+            android:layout_below="@+id/abul_barakatImg"
+            android:id="@+id/abul_barakat_txtV"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            android:text="Professor Dr. Abul Barakat\nDepartment of Economics\nUniversity of Dhaka and
+President, Bangladesh Economic Association"
+            />
+    </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
